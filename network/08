@@ -1,0 +1,13 @@
+# SUBJECT :
+# Find the provider of slash16.org
+
+# INFO:
+
+# whois : Internet domain name and network number directory service
+# search for Name Server
+
+# DEDUCTION :
+# use whois to search for the domain name, then search the server name
+
+# COMMAND :
+whois slash16.org | grep "Name Server:" | awk '{print $3}'

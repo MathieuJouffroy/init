@@ -1,0 +1,9 @@
+# SUBJECT :
+# Identify the MAC address of the Wi-Fi card
+
+# INFO : 
+# en0 = physical network interfaces. (Ethernet)
+# en1 = airport (wifi card)
+
+# COMMAND : 
+ifconfig en1 | grep ether | awk '{print $2}'

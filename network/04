@@ -1,0 +1,23 @@
+# SUBJECT :
+# Identifiy the default gateway in the routing table
+
+# INFO : 
+# default gateway :  node in a computer network using the internet protocol 
+# suite that serves as the forwarding host (router) to other networks when no 
+# other route specification matches the destination IP address of a packet.
+# A default gateway lets devices in one network to communicate with devices 
+# in another network. If your computer, for example, is requesting an internet 
+# web page, the request first runs through your default gateway before 
+# exiting the local network to reach the internet.
+
+# netstat : 
+# Print information about network connections, routing tables, interface statistics, 
+# masquerade connections, and multicast memberships.
+# -n : shows network addresses as numbers (normally netstat interprets 
+# addresses and attempts to display them symbolically). 
+# -r : shows the routing tables
+
+# netif = network interfacex
+
+# COMMAND : 
+netstat -nr | grep en0 | grep default | awk '{print $2}'

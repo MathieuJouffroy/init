@@ -1,0 +1,11 @@
+# SUBJECT: Thanks to the previous question and the reverse DNS find the name of your host
+
+# COMMAND : 
+# ipconfig getoption en0 server_identifier
+# nslookup 10.51.1.253
+
+# OUTPUT :
+echo Server:		10.51.1.42
+echo Address:		10.51.1.42#53
+echo 
+echo 253.1.51.10.in-addr.arpa		name = dhcp.42.fr.

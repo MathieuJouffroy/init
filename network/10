@@ -1,0 +1,16 @@
+# SUBJECT:
+# Identify the network devices between your computer and the slash16.org domain
+
+# INFO :
+# traceroute : print the route packets take to network host
+# The traceroute command is used in Linux to map the journey that a 
+# packet of information undertakes from its source to its destination. 
+# One use for traceroute is to locate when data loss occurs throughout 
+# a network, which could signify a node that's down.
+# Because each hop in the record reflects a new server or router between 
+# the originating PC and the intended target, reviewing the results of a 
+# traceroute scan also lets you identify slow points that may adversely affect 
+# your network traffic.
+
+# COMMAND : 
+traceroute slash16.org

@@ -1,0 +1,16 @@
+# SUBJECT :
+# Find the external IP of 42.fr
+
+# INFO : 
+# find external IP of 42 through google 8.8.8.8
+# use nslookup, then modify to get only the address
+# grep -v : Selected lines are those not matching any of the specified patterns
+# use gre -v to take out 1st line which is not the external IP of 42.fr
+
+# COMMAND :
+# nslookup 42.fr 8.8.8.8 | grep Address | awk '{print $2}' | grep -v "#"
+
+# OUTPUT : 
+echo 163.172.250.13
+echo 163.172.250.12
+echo 163.172.250.11

@@ -1,0 +1,28 @@
+# SUBJECT:
+# Use the output of the previous command to find the name and IP address of the
+# device that makes the link between you (local network) and the outside world
+
+# INFO :
+# traceroute outputs : 
+# Each row represents a "hop" along the route. 
+# Think of it as a check-in point where the signal gets its next set of directions.
+
+# format is : Hop #	RTT 1	RTT 2	RTT 3	Name/IP Address
+# Hop Number - This is the first column and is simply the number of the hop along the route
+
+# RTT Columns - The next three columns display the round trip time (RTT) for your packet to 
+# reach that point and return to your computer. This is listed in milliseconds. 
+# There are three columns because the traceroute sends three separate signal packets.
+
+# Domain/IP column - The last column has the IP address of the router.
+
+# DEDUCTION : 
+# Network address translation : 
+# method of remapping one IP address space into another by modifying network address information 
+# in the IP header of packets while they are in transit across a traffic routing device.
+
+# after running the traceroute :
+# the 1st line is the local IP address
+# the 2nd line : nat1 is the NAT router who makes the link between you (local network) and the outside world
+# the 3rd line : the host of our public IP address
+traceroute slash16.org | grep nat-1
