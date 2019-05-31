@@ -3,9 +3,19 @@
 # without displaying any detail for these interfaces. Only the list of names.
 
 # INFO : 
-# ifconfig is used to configure, or view the configuration of, a network 
-# interface. The -a flag may be used instead of an interface name. This flag 
+
+# ifconfig is a command line interface tool for network interface configuration 
+# and also used to initialize an interfaces at system boot time. 
+
+# Once a server is up and running, it can be used to assign an IP Address 
+# to an interface and enable or disable the interface on demand.
+# It is also used to view the status IP Address, Hardware / MAC address, 
+# as well as MTU (Maximum Transmission Unit) size of the currently active interfaces. 
+# ifconfig is thus useful for debugging or performing system tuning.
+#
+# The -a flag may be used instead of an interface name. This flag 
 # instructs ifconfig to display information about all interfaces in the system. 
+
 # The -l flag may be used to list all available interfaces on the system, with 
 # no other additional information.
 

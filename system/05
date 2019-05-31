@@ -1,0 +1,6 @@
+# who -- display who is logged in
+# The who utility displays a list of all users currently logged on, showing
+# for each user the login name, tty name, the date and time of login, and
+# hostname if not local.
+# -b    Time of last system boot.
+# -a    Same as -bdlprTtu.
