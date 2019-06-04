@@ -1,0 +1,8 @@
+# SUBJECT :
+# What file contains the RSA keys of systems that are authorized to connect via SSH?
+
+# DEDUCTION :
+# ls -al ~/.ssh -> Lists the files in your .ssh directory, if they exist
+# -> you can see a authorized_keys files
+# The file is called authorized_keys, it is located on .ssh folder which is different for each Users.
+# ~/.ssh/authorized_keys

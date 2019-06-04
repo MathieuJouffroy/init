@@ -9,3 +9,6 @@ echo Server:		10.51.1.42
 echo Address:		10.51.1.42#53
 echo 
 echo 253.1.51.10.in-addr.arpa		name = dhcp.42.fr.
+
+# DEDUCTION:
+# host is dhcp.42.fr

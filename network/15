@@ -1,5 +1,10 @@
 # SUBJECT: Make the intra.42.fr address reroute to 46.19.122.85
 
-# INFO :
+# DEDUCTION from past answer:
+# As /etc/hosts maps hostnames to IP addresses, to reroute intra.42.fr to 46.19.122.85
+# add following line in /etc/hosts : 46.19.122.85 intra.42.fr
+# 
 
 # COMMAND : 
+# vim /etc/hosts
+# then add : 46.19.122.85 intra.42.fr

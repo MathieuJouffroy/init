@@ -1,0 +1,8 @@
+# SUBJECT : 
+# What command lets you know who is connected to the System?
+
+# INFO :
+# w -- display who is logged in and what they are doing
+
+# COMMAND:
+w

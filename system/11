@@ -1,0 +1,13 @@
+# SUBJECT:
+# Name the command that displays the available space left and used on the system
+# in an humanly understandable way
+
+# df 
+# df displays the amount of disk space available on the file system containing each 
+# file name argument.  If no file name is given, the space available on all currently 
+# mounted file systems is shown.
+
+# df -H : print sizes in powers of 1000 (e.g., 1.1G)
+
+# COMMAND:
+df -H

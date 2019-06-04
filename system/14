@@ -1,0 +1,7 @@
+# SUBJECT :
+# Run the ‘tail -f /var/log/syslog‘ command in background
+
+# You can run a process directly from the background using the ampersand, & sign
+
+# COMMAND :
+tail -f /var/log/syslog &

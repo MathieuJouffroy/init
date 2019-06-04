@@ -1,0 +1,5 @@
+# SUBJECT :
+# Find the command that kills ssh service
+
+# COMMAND:
+systemctl stop ssh

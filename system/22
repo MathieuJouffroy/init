@@ -1,0 +1,5 @@
+# SUBJECT :
+# Find the command that add a new local user
+
+# COMMAND
+sudo useradd <name>

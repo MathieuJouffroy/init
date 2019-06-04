@@ -1,5 +1,9 @@
+# SUBJECT :
+# What file has to be modified to make the new hostname permanent?
+
 # Edit the file /etc/hostname, enter:
 # vi /etc/hostname
 # Delete the existing name and replace it with a new name:
 # Save and close the file. You may also need to edit the /etc/hosts file, enter:
 # vi /etc/hosts
+# after modifying restart system
