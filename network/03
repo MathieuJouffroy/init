@@ -2,6 +2,8 @@
 # Identify the MAC address of the Wi-Fi card
 
 # INFO : 
+# Your network card has a MAC address. 
+# So if you have a wireless card and an Ethernet card, you'll have two MAC addresses.
 # en0 = physical network interfaces. (Ethernet)
 # en1 = airport (wifi card)
 

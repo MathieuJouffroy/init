@@ -2,7 +2,7 @@
 
 # COMMAND : 
 # ipconfig getoption en0 server_identifier
-# nslookup 10.51.1.253
+# nslookup {result of previous command} or host {result of previous command}
 
 # OUTPUT :
 echo Server:		10.51.1.42

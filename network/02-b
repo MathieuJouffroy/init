@@ -1,0 +1,6 @@
+# SUBJECT : 
+# Identify and display the Ethernet interface characteristics:
+#       - Identify all IP adresses which are part of the same subnet
+
+# COMMAND:
+ifconfig en0 | grep inet  | awk '{print $2}'

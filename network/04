@@ -5,6 +5,7 @@
 # default gateway :  node in a computer network using the internet protocol 
 # suite that serves as the forwarding host (router) to other networks when no 
 # other route specification matches the destination IP address of a packet.
+
 # A default gateway lets devices in one network to communicate with devices 
 # in another network. If your computer, for example, is requesting an internet 
 # web page, the request first runs through your default gateway before 
@@ -19,5 +20,14 @@
 
 # netif = network interfacex
 
+# route : Route is a utility used to manually manipulate the network routing tables.  It normally is not needed
+#        -n  Bypass attempts to print host and network names symbolically when reporting actions.  
+#			(The process of translating between symbolic names and numerical equivalents can be quite time consuming, 
+#			 and may require correct operation of the network; thus it may be expedient to forget this, especially when 
+#            attempting to repair networking operations).
+
+
 # COMMAND : 
-netstat -nr | grep en0 | grep default | awk '{print $2}'
+netstat -nr | grep default | grep en0 | awk '{print $2}'
+
+# OR : route -n get default | grep gateway | awk '{print $2}'

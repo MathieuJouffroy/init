@@ -4,10 +4,13 @@
 # INFO:
 
 # whois : Internet domain name and network number directory service
-# search for Name Server
+#         type whois, and give it a domain name to look up.
 
-# DEDUCTION :
-# use whois to search for the domain name, then search the server name
+# use whois to search for the domain name,
+# then search the server name -> grep "Name Server:"
 
 # COMMAND :
 whois slash16.org | grep "Name Server:" | awk '{print $3}'
+
+# DEDUCTION :
+# AWS is Amazon Web Services
