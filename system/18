@@ -3,3 +3,4 @@
 
 # COMMAND:
 systemctl stop ssh
+# or sudo service ssh stop       

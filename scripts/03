@@ -1,3 +1,0 @@
-[ $# -lt 1 ] && Usage
-
-find * -type f -print | xargs "$@"
