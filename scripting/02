@@ -6,7 +6,7 @@
 
 # add user   : sudo useradd <name>
 # check user : cat /etc/passwd | grep <name>
-# delet it with script : sh 02 test
+# delete it with script : sh 02 test
 
 # COMMAND :
 USER=$1
